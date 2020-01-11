@@ -4,5 +4,8 @@
 @Time : 2020/1/11 14:16
 @Author : Linleil
 """
-for i in range(5, 1, -1):
-    print(i)
+money = 10000
+rate = 0.03
+for y in range(10):
+    money = money * (1 + rate)
+print(format(money, '.2f'))
